@@ -1,0 +1,108 @@
+.news-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    max-width:100%;
+    margin:0 auto;
+    padding:0.5rem;
+    flex-direction:column;
+}
+.news-container .news{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:90%;   
+    margin:1rem 0;
+    flex-wrap:wrap;
+
+
+
+}
+.news-card{
+    margin:0.5rem 0.75rem;
+    
+    width:30%;
+    height:auto;
+    border:0.25px solid #555;
+    transition:0.2s ease-in-out;
+}
+.news-card:hover{
+    border:0.5px solid #ccc;
+}
+.heading{
+    font-size:3rem;
+    letter-spacing:1px;
+    font-weight:600;
+    text-align:center;
+    margin:1rem;
+    color:#eee;
+}
+img{
+    width: 100%; /* Ensure the image fills the width of the card */
+    height: 2rem; /* Make the image fill the height of its parent */
+    object-fit: cover; /* Ensure the image covers the entire space */
+
+}
+.news-btn{
+    display:block;
+    font-size:1rem;
+    letter-spacing:0.5px;
+    height:1.75rem;;
+    line-height:;
+    text-align:center;
+    padding-left:0;
+    padding-right:0;
+    padding:0 0.8rem;
+    border:0.5px solid #ccc;
+    border-radius:5rem;
+    width:100%;
+    color:#fff;
+    font-weight:400;
+}
+.news-bth:hover{
+    border:0.75px solid #eee;
+    color:#efefef;
+}
+.news-card:hover .news-btn{
+    border:0.5px solid #eee;
+
+}
+.card-header{
+    font-size:1.2rem;
+    padding:0;
+    line-height:1.5rem;
+    letter-spacing:1px;
+}
+p{
+    font-size:0.9rem;
+}
+.card-body{
+    padding:0.5rem 1rem;
+    gap:0.5rem;
+}
+button{
+    z-index:999989;
+}
+.image-container{
+      height: 150px; /* Set your desired fixed height for the image */
+      overflow: hidden;
+    border-radius:0.5rem;
+    padding:0.25rem;
+}
+.image-container img{
+    object-fit:fill;
+      width: 100%;
+      height: 100%; /* Make sure the image fills the container */
+    position:relative;
+    border:0.25px solid #555;
+    transition:0.4s ease-in-out
+}
+.card.card-image-cover img:last-child {
+    border-bottom-left-radius:0.75rem;
+    border-bottom-right-radius: 0.75rem;
+    height: 100%;
+    max-width: 100%;
+}
+.news-card:hover .image-container img{
+    border:0.5px solid #ccc;
+}
