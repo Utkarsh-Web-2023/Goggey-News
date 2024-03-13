@@ -13,7 +13,7 @@ class Navbar extends Component {
                     style={style}
                 >
                     <div className="navbar-start">
-                        <a className="navbar-item">News Junkeyy</a>
+                        <a className="navbar-item">Goggey news</a>
                     </div>
                     <div className="navbar-end">
                         <a className="navbar-item">Home</a>

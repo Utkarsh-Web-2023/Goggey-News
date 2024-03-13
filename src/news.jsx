@@ -116,7 +116,7 @@ class NewsComponent extends Component {
             <>
                 <div className="flex news-container my-5 ">
                     <h1 className="heading">
-                        News Junkeyy - Top News Headlines
+                        Goggey News - Top News Headlines
                     </h1>
                     <div className="news">
                         {this.state.articles.map((element) => {
